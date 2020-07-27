@@ -1,0 +1,35 @@
+@font-face{
+    font-family: 'fuente cool';
+    src: url(../font/Rockwork.ttf);/*cuando hay espacios esn ncesario poner comillas  OpenSans Bold.ttf*/
+}
+
+.navbar{
+background-color: #5A7BB5!important;
+
+}
+body{
+    background-color: #F4F6FC;
+    
+}
+#contenido{ 
+    background-color: rgba(0, 0, 0, 0.486);
+    height: 100vh;
+
+}
+#letras-nav1,#letras-nav2,#letras-nav3,#letras-nav4{
+text-decoration: none;
+font-family: 'fuente cool';
+}
+
+#letras-nav1:hover,#letras-nav2:hover,#letras-nav3:hover,#letras-nav4:hover{
+    text-decoration: underline;
+    color: #71df0c!important;
+}
+
+footer {
+    background: #1f6298 url(../img/footer.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    padding-bottom: 3rem;
+}

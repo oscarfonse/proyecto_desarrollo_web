@@ -1,0 +1,121 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top bg-dark">
+    <img src="img/logo.png"  href="index.html" alt="" style="width: 6%;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <a id="letras-nav1" style="color: #71df0c; font-size: 25px" class="nav-link mr-auto" href="index.html">Utilidades</a>
+      <ul  class="navbar-nav ml-auto" style="font-size: 20px;" >
+        <li class="nav-item active">
+          <a id="letras-nav2" style="color: white;" class="nav-link "  href="registro.html">Regístrate <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a id="letras-nav3" style="color: white;" class="nav-link " href="login.html">Ingresar <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <i class="fas fa-terminal" style="font-size: 2rem; padding-top: 10%; color: black;"></i>
+        </li>
+      </ul>
+    </div>
+  </nav>  
+      <div class="container col-12 col-md-6 col-xs-4" id="caja">
+        <form class="form-signin col-md-6" id="formulario" method="post" action="validar.php">
+          <div class="" id="imglogin">
+              <img class="" src="img/sesion.png" alt="" width="72" height="72" id="imglogin">
+          </div>
+          <h1 class="h3 mb-3 font-weight-normal text-white text-center">Iniciar Sesion</h1>
+          <input type="email" id="inputEmail" name= "nombre" class="form-control mb-2" placeholder="Nombre">
+          <label class="sr-only" id="contra">Password</label>
+          <input type="password" id="inputPassword" class="form-control" name= "clave" placeholder="Contraseña" required>
+          <div class="checkbox mb-3">
+            <label class="text-white">
+              <input type="checkbox" value="remember-me"> Recordarme
+            </label> <br>
+            <a class="text-info" style="color: white!important;" href="#">Olvidaste tu contraseña?</a>
+          </div>
+
+          <button class="btn btn-lg btn-primary btn-block" type="submit" >Entrar</button>
+          <p class="mt-5 mb-3 ">&copy; 2020</p>
+        </form>
+
+      </div>
+
+      <footer class="container-fluid">
+        <div class=" text-center text-md-left pt-3">
+          <div class="row">
+            <div class="col-md-6 mt-md-0 mt-3"><br>
+      
+              <!-- Content -->
+              <h5 class="text-uppercase">Code_One</h5>
+              <p>Para más información acerca de los atributos globales refiérete a oscar@gmail.com </p>
+            </div>
+            <hr class="clearfix w-100 d-md-none pb-3">
+            <div class="col-md-3 mb-md-0 mb-3">
+              <h5 class="text-uppercase">REFERENCIA</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a style="color: white;" href="#!">Herramientas y recursos</a>
+                </li>
+                <li>
+                  <a style="color: white;" href="#!">Organizando un sitio web</a>
+                </li>
+                <li>
+                  <a style="color: white;" href="#!">Eventos globales</a>
+                </li>
+                <li>
+                  <a style="color: white;" href="#!">Acerca de mí</a>
+                </li>
+              </ul>
+            </div>
+    
+            <div class="col-md-3 mb-md-0 mb-3">
+              <h5 class="text-uppercase">MÁS</h5>
+      
+              <ul class="list-unstyled " style="color: white;" >
+                <li>
+                  <a style="color: white;"href="#!">Contáctame</a>
+                </li>
+                <li>
+                  <a style="color: white;" href="#!">¿Cómo empezar?</a>
+                </li>
+                <li>
+                  <a style="color: white;" href="#!">Tablas en HTML</a>
+                </li>
+                <li>
+                  <a style="color: white;" href="#!">Informa errores</a>
+                </li>
+              </ul>
+            </div>
+      
+          </div>
+        </div><br><br>
+       
+      
+          <p class="float-right"><a style="color: white;" href="#">Back to top</a></p>
+          <p>&copy; Derechos Reservados  2020 &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    
+      </footer>
+    
+       
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+      <script src="js/controlador.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

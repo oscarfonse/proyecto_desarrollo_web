@@ -1,0 +1,68 @@
+body {
+  background: #1F1C2C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F4F6FC, #F4F6FC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F4F6FC, #F4F6FC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+#barra{
+  background: #005AA7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #c6d2f5, #5A7BB5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #c6d2f5, #0059a7bd);
+}
+
+#crear-proyect{
+border-radius: 25px ;
+border-color: #c6d2f5;
+background-color: #005AA7;
+color: white;
+padding: 10px;
+
+
+
+
+}
+#html-{
+margin-left: auto;
+margin-bottom: 5%;
+width: 98%; 
+height: 285px!important;
+background-color: #333337;
+color: white;
+padding-left: 5px;
+}
+#js-{
+margin-left: auto;
+margin-bottom: 5%;
+  width: 98%; 
+  background-color: #333337;
+  color: white;
+  height: 285px!important;
+  padding-left: 5px;
+}
+#css-{
+margin-left: auto;
+margin-bottom: 5%;
+  width: 98%; 
+  height: 285px!important;
+background-color: #333337;
+color: white;
+padding-left: 5px;
+}
+
+#folder1,#folder2,#folder3{
+  border-color: #F4F6FC ;
+  background-color:#F4F6FC;
+  cursor: pointer;
+ }
+ #folder1:hover{
+  background-color: rgba(0, 0, 0, 0.185);
+ }
+ #folder2:hover{
+  background-color: rgba(0, 0, 0, 0.185);
+ }
+ #folder3:hover{
+  background-color: rgba(0, 0, 0, 0.185);
+ }
